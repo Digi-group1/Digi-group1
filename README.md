@@ -13,13 +13,15 @@ Ces données concernent la gestion des commandes de cadeaux sur 20 ans sur la Fr
 
 Environnements et configuration technique
 ------------------------------------------
-Pour la réalisation de ce projet, nous avons un environnement virtuel configuré et mis à disposition par Diginamic (Christophe G.). Cet environnement est composé de :
+Pour la réalisation de ce projet, nous disposons d'un environnement virtuel configuré et installé par Diginamic (Christophe G.). Cet environnement est composé de :
  - une machine virtuelle Linux pour faire tourner Docker et Hadoop
  - une machine virtuelle Windows (Hidora) pour le développement et Power BI
+
 Les technologies et logiciels utilisés sont :
- - langage Python avec VS Code et les librairies associées : Pandas, Matplotlib, sys, operator, Happybase, ...
+ - langage Python (version 3.5.4) avec les librairies (ou modules) associées : Pandas, Matplotlib, Happybase, ...
+ - Visual Studio Code
  - Hadoop pour le calcul distribué des map/reduce 
- - HBase pour le stockage de la base de données NoSQL orientée colonnes
+ - HBase pour le stockage de la base de données NoSQL (orientée colonnes)
  - PuTTY
  - Filezilla pour l'import de fichiers dans Hadoop
  - Power BI avec ODBC
